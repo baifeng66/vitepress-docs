@@ -3,7 +3,7 @@ import { set_sidebar } from "../utils/auto-gen-sidebar.mjs";	// 改成自己的�
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/vitepress-docs/',
-  head: [["link", { rel: "icon", href: "/logo.svg" }]],
+  head: [["link", { rel: "icon", href: "/vitepress-docs/favico.ico" }]],
   title: "白枫66全栈编程",
   description: "白枫66的全栈知识库 | Java | Python | Vue",
   themeConfig: {
